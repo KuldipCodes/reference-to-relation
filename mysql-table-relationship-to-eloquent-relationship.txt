@@ -20,6 +20,7 @@ function getModelName($tableName) {
 /*
  *Add this below route at your desired route/*.php file if your are working with laravel >= 5.2
  * added to web.php for me 
+ * go to your host/model-relations-check to view model relationship status
  */
  
  Route::get('model-relations-check', function() {
