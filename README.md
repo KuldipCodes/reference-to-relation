@@ -18,3 +18,6 @@ This package provides a Laravel Artisan command to analyze your database's forei
    protected $commands = [
        \App\Console\Commands\CheckModelRelations::class,
    ];
+
+##  Usage
+- php artisan check:model-relations {database}
